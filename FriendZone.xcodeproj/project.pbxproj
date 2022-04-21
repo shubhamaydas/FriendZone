@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2018A8DA28112D0F00519AAE /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2018A8D928112D0F00519AAE /* TableViewDataSource.swift */; };
 		51B8DB3D22004B3000DD6BB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B8DB3C22004B3000DD6BB0 /* AppDelegate.swift */; };
 		51B8DB3F22004B3000DD6BB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B8DB3E22004B3000DD6BB0 /* ViewController.swift */; };
 		51B8DB4222004B3000DD6BB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B8DB4022004B3000DD6BB0 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2018A8D928112D0F00519AAE /* TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
 		51B8DB3922004B3000DD6BB0 /* FriendZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B8DB3C22004B3000DD6BB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51B8DB3E22004B3000DD6BB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +51,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2018A8D628109EA400519AAE /* models */ = {
+			isa = PBXGroup;
+			children = (
+				51B8DB4E22004BE900DD6BB0 /* Friend.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		2018A8D728109EC100519AAE /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				51B8DB5422004DB000DD6BB0 /* Int-TimeFormatting.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		2018A8D828112CF500519AAE /* datasource */ = {
+			isa = PBXGroup;
+			children = (
+				2018A8D928112D0F00519AAE /* TableViewDataSource.swift */,
+			);
+			path = datasource;
+			sourceTree = "<group>";
+		};
 		51B8DB3022004B3000DD6BB0 = {
 			isa = PBXGroup;
 			children = (
@@ -68,14 +94,15 @@
 		51B8DB3B22004B3000DD6BB0 /* FriendZone */ = {
 			isa = PBXGroup;
 			children = (
+				2018A8D828112CF500519AAE /* datasource */,
+				2018A8D728109EC100519AAE /* utils */,
+				2018A8D628109EA400519AAE /* models */,
 				51B8DB3C22004B3000DD6BB0 /* AppDelegate.swift */,
 				51B8DB3E22004B3000DD6BB0 /* ViewController.swift */,
 				51B8DB5022004C2200DD6BB0 /* FriendViewController.swift */,
-				51B8DB4E22004BE900DD6BB0 /* Friend.swift */,
 				51F7EB2922004EED00B594EB /* Coordinator.swift */,
 				51F7EB2B22004F0E00B594EB /* MainCoordinator.swift */,
 				51F7EB2D22004F2500B594EB /* Storyboarded.swift */,
-				51B8DB5422004DB000DD6BB0 /* Int-TimeFormatting.swift */,
 				51B8DB5222004C8200DD6BB0 /* TextTableViewCell.swift */,
 				51B8DB4022004B3000DD6BB0 /* Main.storyboard */,
 				51B8DB4322004B3200DD6BB0 /* Assets.xcassets */,
@@ -163,6 +190,7 @@
 				51B8DB3F22004B3000DD6BB0 /* ViewController.swift in Sources */,
 				51B8DB5522004DB000DD6BB0 /* Int-TimeFormatting.swift in Sources */,
 				51F7EB2E22004F2500B594EB /* Storyboarded.swift in Sources */,
+				2018A8DA28112D0F00519AAE /* TableViewDataSource.swift in Sources */,
 				51B8DB3D22004B3000DD6BB0 /* AppDelegate.swift in Sources */,
 				51B8DB5322004C8200DD6BB0 /* TextTableViewCell.swift in Sources */,
 				51F7EB2A22004EED00B594EB /* Coordinator.swift in Sources */,
