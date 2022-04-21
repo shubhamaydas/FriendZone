@@ -2,6 +2,7 @@
 
 
 Remove Navigation code to a different method
+
 protocol Storyboarded {
     static func instantiate() -> Self
 }
